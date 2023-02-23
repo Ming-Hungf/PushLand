@@ -137,3 +137,4 @@ D:\Data\C#\PushLand\BLL\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dl
 D:\Data\C#\PushLand\BLL\bin\Debug\netcoreapp3.1\System.Linq.Async.dll
 D:\Data\C#\PushLand\BLL\bin\Debug\netcoreapp3.1\Firebase.Auth.dll
 D:\Data\C#\PushLand\BLL\bin\Debug\netcoreapp3.1\System.ServiceModel.dll
+D:\Data\C#\PushLand\BLL\bin\Debug\netcoreapp3.1\firebase.json

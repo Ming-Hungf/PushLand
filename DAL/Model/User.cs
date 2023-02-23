@@ -18,6 +18,6 @@ namespace DAL.Model
         public int RoleID { get; set; }
         public string? OTP { get; set; }
         public DateTime? OTPCreated { get; set; }
-
+        public string DeviceToken { get; set; }
     }
 }

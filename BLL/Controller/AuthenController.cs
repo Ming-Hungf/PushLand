@@ -36,6 +36,11 @@ namespace BLL.Controller
             {
                 return Ok(new APIResult { Status = -1, Data=null, Message = "Tài khoản không tồn tại" });
             }
+            if (model.DeviceToken == null)
+            {
+                return Ok(new APIResult { Status = -1, Message = " Có lỗi xảy ra. Vui lòng đăng nhập lại" });
+            }
+            user.DeviceToken = model.DeviceToken;
             string token = Security.GenerateAuthKey();
             _context.Add(new UserSession
             {

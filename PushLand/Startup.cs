@@ -39,6 +39,7 @@ namespace PushLand
             services.AddDistributedMemoryCache();
             services.AddTransient<IFilterService, FilterService>();
             services.AddTransient<ISendMailService, SendMailService>();
+            services.AddSingleton<ChatService>();
             services.AddSwaggerGen(options =>
             {
                 options.CustomSchemaIds(x => x.FullName);
